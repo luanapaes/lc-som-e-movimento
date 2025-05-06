@@ -62,6 +62,78 @@ body {
             /* Ajuste conforme necessário */
         }
     }
+
+    main {
+
+        .banner {
+            background-image: url(/assets/capa.png);
+            background-size: cover;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 30%;
+            height: 450px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+
+            .content {
+                width: 100%;
+                min-height: 40%;
+                padding: 0 0 20px 20px;
+                box-sizing: border-box;
+
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 185px;
+                    align-items: center;
+
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+
+                    h1 {
+                        font-size: 18px;
+                        color: #e9e18e;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .title {
+                    color: #f8f1a5;
+                    font-size: 1em;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    width: 62%;
+                    color: #f1eeca;
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-align: start;
+                    margin-top: 3px;
+                }
+
+                a {
+                    background: rgba(248, 229, 120, 1);
+                    text-decoration: none;
+                    color: #3a3503;
+                    font-weight: bold;
+                    font-size: 13px;
+                    padding: 6px 10px;
+                    border-radius: 30px;
+                    transition: background .6s ease-out;
+
+                    &:hover {
+                        background: rgb(251, 225, 77);
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) {
@@ -69,5 +141,12 @@ body {
     .menu-button,
     .menu-content {
         display: none !important;
+    }
+}
+
+/* ajusta width da tag p para se ajustar em telas menores*/
+@media (max-width: 720px) {
+    .content p {
+        width: 80vw !important;
     }
 }
