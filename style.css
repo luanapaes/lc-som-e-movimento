@@ -4,6 +4,10 @@ body {
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
 
+    .font-color {
+        color: #f1eeca;
+    }
+
     header {
         position: relative;
         width: 100%;
@@ -64,7 +68,6 @@ body {
     }
 
     main {
-
         .banner {
             background-image: url(/assets/capa.png);
             background-size: cover;
@@ -110,7 +113,6 @@ body {
 
                 p {
                     width: 62%;
-                    color: #f1eeca;
                     font-size: 16px;
                     font-weight: 500;
                     text-align: start;
@@ -133,10 +135,95 @@ body {
                 }
             }
         }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .banda {
+            width: 100%;
+
+            .b-title {
+                text-align: center;
+                color: #f8f1a5;
+            }
+
+            .carousel {
+                position: relative;
+                width: 40%;
+                height: auto;
+                display: flex;
+                align-items: start;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    opacity: 1;
+                    transition: opacity 0.6s ease-in-out;
+                }
+
+                .nav {
+                    position: absolute;
+                    background-color: transparent;
+                    border: none;
+                    padding: 5px;
+                    cursor: pointer;
+                    font-size: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    z-index: 1;
+                    border-radius: 5px;
+                }
+
+                .left {
+                    left: -30px;
+                }
+
+                .right {
+                    right: -30px;
+                }
+            }
+
+            .about-banda {
+                text-align: center;
+
+                h2 {
+                    color: #e9e18e;
+                }
+
+                p {
+                    width: 80%;
+                    margin-top: 0;
+                }
+
+                .btn-contrate {
+                    border: none;
+                    border-radius: 90px;
+                    height: 30px;
+                    width: 250px;
+
+                    text-transform: uppercase;
+                    color: #c1850b;
+                    font-weight: bold;
+
+                    transition: all .5s ease;
+
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #fbefd9;
+                    }
+                }
+            }
+        }
+
     }
 }
 
 @media (min-width: 768px) {
+
     /* ssconde o menu e o botão do navbar em telas grandes como solicitado */
     .menu-button,
     .menu-content {
@@ -148,5 +235,28 @@ body {
 @media (max-width: 720px) {
     .content p {
         width: 80vw !important;
+    }
+
+    .banda {
+        .b-title {
+            width: 85%;
+            font-size: 18px;
+        }
+
+        .carousel {
+            width: 80% !important;
+        }
+
+        .about-banda {
+            h2 {
+                color: #e9e18e;
+                max-width: 80%;
+                font-size: 1em;
+            }
+
+            p {
+                width: 90% !important;
+            }
+        }
     }
 }
