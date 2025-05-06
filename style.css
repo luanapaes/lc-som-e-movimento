@@ -1,0 +1,73 @@
+body {
+    background-color: #c1850b;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+
+    header {
+        position: relative;
+        width: 100%;
+        height: 110px;
+        background: linear-gradient(to bottom, #c88b00, #f5dd57);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .menu-button {
+            position: absolute;
+            left: 20px;
+            background: none;
+            border: none;
+            font-size: 2.5em;
+            color: white;
+            cursor: pointer;
+        }
+
+        .menu-content {
+            display: none;
+            margin-top: 10px;
+            position: absolute;
+            top: 100px;
+            left: 0px;
+            background-color: #f5dd57;
+            width: 160px;
+        }
+
+        .menu-content a {
+            display: block;
+            color: #a16400;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+
+        .menu-content.active {
+            display: block;
+        }
+
+
+        .whatsapp {
+            width: 110px;
+            background-color: #0dbf43;
+            color: white !important;
+            border-radius: 8px;
+            padding: 2px 8px;
+            margin-left: 16px;
+        }
+
+        .image-content img {
+            height: 100px;
+            /* Ajuste conforme necessário */
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    /* ssconde o menu e o botão do navbar em telas grandes como solicitado */
+    .menu-button,
+    .menu-content {
+        display: none !important;
+    }
+}
