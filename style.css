@@ -168,6 +168,7 @@ body {
                 .nav {
                     position: absolute;
                     background-color: transparent;
+                    color: #f8f1a5;
                     border: none;
                     padding: 5px;
                     cursor: pointer;
