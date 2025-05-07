@@ -80,4 +80,8 @@
     .servico-content{
         margin: 0 15px;
     }
+
+    .servico{
+        width: 85vw;
+    }
 }
