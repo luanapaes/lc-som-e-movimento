@@ -20,14 +20,14 @@
 .servico {
     scroll-snap-align: center;
     background-color: #f8f1a5;
-    width: 300px;
+    width: 350px;
     min-height: 300px;
     flex-shrink: 0;
     padding: 10px 15px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -38,7 +38,7 @@
 
 .servico h1 {
     color: #c1850b;
-    margin: 10px 0;
+    margin: 0;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@
     text-align: center;
     color: #3a3503;
     font-weight: 500;
-    margin: 10px 0;
+    margin: 0;
 }
 
 .servico button {
