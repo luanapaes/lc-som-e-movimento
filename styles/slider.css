@@ -9,6 +9,26 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    padding-bottom: 25px;
+}
+
+.servico-carousel::-webkit-scrollbar {
+    height: 10px;
+}
+
+.servico-carousel::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.servico-carousel::-webkit-scrollbar-thumb {
+    background-color: #f8f1a5;
+    border-radius: 10px;
+}
+
+/* firefox */
+.servico-carousel {
+    scrollbar-color: #f8f1a5 transparent;
+    scrollbar-width: thin;
 }
 
 .servico-content {
@@ -77,12 +97,12 @@
     }
 }
 
-@media (max-width: 720px){
-    .servico-content{
+@media (max-width: 720px) {
+    .servico-content {
         margin: 0 15px;
     }
 
-    .servico{
+    .servico {
         width: 85vw;
     }
 }
