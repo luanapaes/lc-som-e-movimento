@@ -3,7 +3,7 @@ function toggleMenu() {
     menu.classList.toggle('active');
 }
 
-// carrossel
+// carrossel banda
 const images = [
     "/assets/carrossel/sem-2.jpeg",
     "/assets/carrossel/sem-4.jpeg",
@@ -19,7 +19,7 @@ function showImage(index) {
     setTimeout(() => {
         imageElement.src = images[index];
         imageElement.style.opacity = 1;
-    }, 300); 
+    }, 300);
 }
 
 function prevSlide() {
