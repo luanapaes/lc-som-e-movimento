@@ -19,11 +19,11 @@
         </button>
 
         <div id="menu" class="menu-content">
-            <a href="#">Início</a>
-            <a href="#">Banda</a>
-            <a href="#">Serviços</a>
-            <a href="#">Sobre</a>
-            <a href="#" class="whatsapp">
+            <a href="#inicio">Início</a>
+            <a href="#banda">Banda</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="https://wa.me/5581979085820?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20LCprodu%C3%A7%C3%B5es" class="whatsapp">
                 <i class="fab fa-whatsapp"></i>
                 Saiba mais</a>
         </div>
@@ -35,7 +35,7 @@
 
     <main>
         <section class="banner">
-            <div class="content">
+            <div class="content" id="inicio">
                 <div>
                     <img src="/assets/logo.png" alt="Logomarca LC Produções">
                     <h1>Produções</h1>
@@ -50,11 +50,11 @@
                     momentos inesquecíveis. Clique abaixo e seja parte dessa jornada!
                 </p>
 
-                <a href="">Descubra Nossa Produtora!</a>
+                <a href="#servicos">Descubra Nossa Produtora!</a>
             </div>
         </section>
 
-        <section class="banda flex">
+        <section class="banda flex" id="banda">
             <h1 class="b-title">Orquestra e Banda Som & Movimento Muito Além da Música</h1>
 
             <div class="carousel">
@@ -72,14 +72,14 @@
                     vibrantes e inesquecíveis.
                     Mais do que música, entregamos emoção e histórias em cada evento.</p>
 
-                <button class="btn-contrate">Contrate a banda agora!</button>
+                <button class="btn-contrate" onclick="toWhatsApp()">Contrate a banda agora!</button>
             </div>
 
         </section>
 
         <div class="divider"></div>
 
-        <section class="servicos">
+        <section class="servicos" id="servicos">
             <h1>Serviços</h1>
 
             <div class="servico-carousel">
@@ -90,7 +90,7 @@
                         <p>Torne seu casamento único com energia e emoção. Nossa banda eleva a celebração com
                             performances
                             cativantes que encantam todos os momentos.</p>
-                        <button>Faça Seu Casamento Inesquecível!</button>
+                        <button onclick="toWhatsApp()">Faça Seu Casamento Inesquecível!</button>
                     </div>
 
                     <div class="servico">
@@ -99,7 +99,7 @@
                         <p>Leve energia e qualidade para grandes eventos. Nossa banda domina o palco com performances
                             vibrantes
                             que conectam o público.</p>
-                        <button>Reserve para Seu Festival!</button>
+                        <button onclick="toWhatsApp()">Reserve para Seu Festival!</button>
                     </div>
 
                     <div class="servico">
@@ -109,23 +109,23 @@
                         <p>Leve vida e animação para seu baile. Nossa banda transforma qualquer evento em uma festa
                             vibrante,
                             com performances que fazem todos dançarem.</p>
-                        <button>Anime Seu Baile Agora!</button>
+                        <button onclick="toWhatsApp()">Anime Seu Baile Agora!</button>
                     </div>
                 </div>
             </div>
 
             <div class="btn-saiba">
-                <button class="b-saiba">Saiba mais!</button>
+                <button class="b-saiba" onclick="toWhatsApp()">Saiba mais!</button>
             </div>
         </section>
 
-        <section class="membros">
+        <section class="membros" id="membros">
             <h1>Nossa Equipe</h1>
 
             <div class="membro-carousel" id="membroCarousel"></div>
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <img src="/assets/logo.png" alt="Logo da LC Produções">
             <p>
                 Na LC Produções, nossa missão é transformar eventos em experiências inesquecíveis. Especializados em
@@ -143,7 +143,7 @@
                 nossa paixão pela música e pela cultura para além das fronteiras.
             </p>
 
-            <button>Conheça nossa história!</button>
+            <button onclick="toWhatsApp()">Conheça nossa história!</button>
         </section>
     </main>
 
@@ -166,19 +166,19 @@
                 <p>Contatos</p>
                 <ul>
                     <li>
-                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <a href="https://www.facebook.com/lc.produtor" target="_blank" aria-label="Facebook">
                             <i class="fab fa-facebook-square"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <a href="https://www.instagram.com/luis.carneiroproducao/" target="_blank" aria-label="Instagram">
                             <i class="fab fa-instagram-square"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://whatsapp.com" target="_blank" aria-label="WhatsApp">
+                        <a href="https://wa.me/5581979095020?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20LC%20Produ%C3%A7%C3%B5es%20e%20seus%20servi%C3%A7os" target="_blank" aria-label="WhatsApp">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                     </li>
