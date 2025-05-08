@@ -5,10 +5,10 @@ function toggleMenu() {
 
 // carrossel banda
 const images = [
-    "/assets/carrossel/sem-2.jpeg",
-    "/assets/carrossel/sem-4.jpeg",
-    "/assets/carrossel/sem-5-1.jpeg",
-    "/assets/carrossel/sem-1.jpeg"
+    "assets/carrossel/sem-2.jpeg",
+    "assets/carrossel/sem-4.jpeg",
+    "assets/carrossel/sem-5-1.jpeg",
+    "assets/carrossel/sem-1.jpeg"
 ];
 
 const imageElement = document.getElementById("carousel-image");
