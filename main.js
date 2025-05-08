@@ -45,19 +45,19 @@ const equipe = [
         "nome": "Kadú Bear",
         "funcao": "Vocalita",
         "descricao": "Apresentamos o coração da nossa música, nosso vocalista, Kadú Bear, que traz vida às letras com sua voz poderosa. Cantor de vários estilos musicais passou por diversas bandas de renome como o Forró da Malu, grupo Sol Menores, entre outros, atualmente compõe a Orquestra e Banda Som & Movimento, porém, pretende lançar um álbum e fazer carreira solo.",
-        "foto": "/assets/equipe/kadubear.png"
+        "foto": "assets/equipe/kadubear.png"
     },
     {
         "nome": "Luciano Guapo",
         "funcao": "Baixista",
         "descricao": "O nosso baixista Luciano Guapo, começou a tocar aos quinze (15) anos de idade e logo se apaixonou pelo baixo ao ouvir Ginger Baker, Eric Clapton, dentre outros. Ele aperfeiçoou suas habilidades musicais frequentando o Conservatório Pernambucano de Música, além das experiências adquiridas com os estilos musicais de cada banda por onde passou, desta forma, enriquece nossa sonoridade com grooves cativantes.",
-        "foto": "/assets/equipe/lucianoguapo.png"
+        "foto": "assets/equipe/lucianoguapo.png"
     },
     {
         "nome": "Edvaldo Silva",
         "funcao": "Guitarrista",
         "descricao": "Nosso guitarrista pegou sua primeira guitarra aos doze (12) anos de idade e nunca mais olhou para trás. Influenciado pelo famoso guitarrista ‘Jimi Hendrix’, ele aperfeiçoou seu talento nos estudos da guitarra e nas bandas pelas quais passou. Edvaldo Silva é um excelente guitarrista e vocalista, com uma vasta experiência no meio artístico musical.",
-        "foto": "/assets/equipe/edvaldosilva.png"
+        "foto": "assets/equipe/edvaldosilva.png"
     },
     {
         "nome": "Bruno Araújo",
