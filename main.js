@@ -115,3 +115,20 @@ equipe.forEach(membro => {
 
     container.appendChild(membroContent);
 });
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) {
+            target.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+    });
+});
+
+function toWhatsApp() {
+    window.open("https://wa.me/5581979085820?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20LCprodu%C3%A7%C3%B5es", "_blank")
+}
